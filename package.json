@@ -1,0 +1,31 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon source/index.js 1996",
+    "node1": "nodemon source/index.js 1996 http://localhost:1996",
+    "node2": "nodemon source/index.js 1997 http://localhost:1997",
+    "node3": "nodemon source/index.js 1998 http://localhost:1998",
+    "node4": "nodemon source/index.js 1999 http://localhost:1999",
+    "node5": "nodemon source/index.js 2000 http://localhost:2000",
+    "node6": "nodemon source/index.js 2001 http://localhost:2001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.12",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
